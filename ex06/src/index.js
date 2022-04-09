@@ -1,11 +1,11 @@
-var myNestedArray = ["Gofret"];
+var myNestedArray = [["Toblerone", 5], ["Milka", 3]];
 
 function myNestedFunction(arr){
-    arr = [["Toblerone", 5], ["Milka", 3]];
+    arr = [["test1", 1], ["test2", 2]];
     return arr;
 }
-
-console.log(myNestedFunction(myNestedArray));
+console.log(myNestedArray)
+console.log(myNestedFunction());
 
 module.exports = myNestedFunction;
 
