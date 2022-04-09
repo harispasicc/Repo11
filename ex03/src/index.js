@@ -1,6 +1,6 @@
 var myPetsArray = ["Dog", "Cat"];
 
-function myArrayFunction(myPets){
+function myArrayFunction(myNewPets){
 var myNewPets = [];
 myNewPets.unshift("Bird", "Fish");
 var firstPet = myNewPets[0];
