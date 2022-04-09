@@ -1,12 +1,11 @@
 var myArr = [2, 4, 0, 8, 10];
 
 function myArrayFunction(myItems){
-var myItems = [2];
-myArr[myItems] = 6;
+myArr[2] = 6;
 
-console.log(myArr)
+return myArr;
 }
 
-myArrayFunction();
+console.log(myArrayFunction());
 
 module.exports = myArrayFunction;
